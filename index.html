@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <meta charset="UTF-8"/> 
+        <title>Primera pagina Web</title>
+        <style>
+            img {
+                max-width: 15%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-nav">
+            <nav class="navbar">
+              <nav class="navbar" role="navigation"></nav>
+              <a href="index.html" class="brand">Mi página web</a>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+          </div>
+        <div class="container">
+          <h1>Bienvenidos a mi Primera Website!</h1>
+          <div class="row">
+             <div class="column">
+               <h2><i>Intro</i></h2>
+               <p>Soy <strong>Nicolás Maure</strong>, ¡y esta es mi primera página web!</p>
+               <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+               
+             </div>
+             <div class="column">
+                <h2>Intereses</h2>
+                <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>  
+             </div>
+          </div>  
+        </div>   
+        <div>
+          <img src="mifoto.jpg" alt="mi foto de perfil" />
+               <figcaption>Nicolás Maure</figcaption>
+               <a href="https://api.whatsapp.com/send?phone=5492613310066">Enviar Whatsapp</a>
+        </div>  
+        <div>
+          <button onclick="showAlert()">¡Haz clic en mi!</button>
+                <form actiom="" id="myForm">
+                    <label for="email">correo electronico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Enviar</button>   
+                </form>
+                <script src="script.js"></script>
+        </div>
+    </body>
+</html>
+ 
